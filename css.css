@@ -1,0 +1,243 @@
+body{
+	height: 100%;
+	margin: 0px;
+	/*background-image: url(./metall.jpg);*/
+	background-color: #EEEEEE
+	background-size:cover;
+	padding: 0px;
+}
+p{
+	padding: 0px;
+	margin: 0px;
+}
+#main{
+	width: 1000px;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	-webkit-box-shadow: 0px 20px 10px #888888;
+	-moz-box-shadow: 0px 20px 10px #888888;
+	box-shadow: 0px 20px 10px #888888;
+}
+#head{
+	width: 1000px;
+	height: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	display: block;
+}
+#left_control{
+	width: 325px;
+	height: 80px;
+	float: left;
+}
+#logo{
+	width: 350px;
+	height: 80px;
+	float: left;
+	cursor: pointer;
+}
+#right_control{
+	width: 325px;
+	height: 80px;
+	float: left;
+}
+#linie{
+	width: 960px;
+	height: 1px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #CCCCCC;
+	clear: both;
+}
+#middle{
+	height: 240px;
+	width: 100%;
+}
+#chat_liste{
+	width: 220px;
+	height: 200px;
+	margin: 20px;
+	float: left;
+	overflow-y: hidden;
+}
+.chat_kontakt{
+	width: 187px;
+	height: 80px;
+	margin: 2px;
+	float: left;
+	cursor: pointer;
+}
+.chat_kontakt_bild{
+	width: 80px;
+	height: 80px;
+	border-radius: 12px;
+	border-top-right-radius: 0px;
+	background-image: url(./carbon.png);
+	float: left;
+}
+.chat_kontakt_bild_img{
+	width: 76px;
+	height: 76px;
+	border-radius: 10px;
+	margin: 2px;
+}
+.chat_kontakt_head{
+	width: 106px;
+	height: 25px;
+	float: left;
+	border-top-right-radius: 12px;
+	border-bottom-right-radius: 12px;
+	background-image: url(./carbon.png);
+	color: white;
+}
+.chat_kontakt_option{
+	width: 106px;
+	height: 0px;
+	float: left;
+	background-color: #ffa133;
+	opacity: 0;
+	/*
+	background-color: red;
+	opacity: 0.5;
+	*/
+}
+#task_bar{
+	width: 705px;
+	height: 200px;
+	margin: 20px;
+	margin-right: 0px;
+	margin-left: 0px;
+	float: left;
+	overflow: hidden;
+	font-size: 18px;
+}
+#task_bar_left{
+	width: 352px;
+	height: 200px;
+	float: left;
+}
+#task_bar_chat_textfeld{
+	width: 340px;
+	height: 141px;
+	margin-bottom: 4px;
+	border-radius: 10px;
+	border: solid black 1px;
+	padding: 5px;
+	overflow: auto;
+}
+#task_bar_chat_optionen{
+	width: 348px;
+	height: 40px;
+	margin-left: 1px;
+}
+.task_bar_chat_option{
+	width: 78px;
+	height: 40px;
+	float: left;
+	margin-left: 6px;
+	border-radius: 10px;
+	border: solid black 1px;
+	text-align: center;
+	cursor: pointer;
+}
+#task_bar_right{
+	width: 352px;
+	height: 200px;
+	float: right;
+}
+#task_bar_chat_konversation{
+	width: 350px;
+	height: 198px;
+	float: right;
+	border-radius: 10px;
+	border: solid black 1px;
+}
+#kontakt_liste{
+	width: 15px;
+	height: 30px;
+	margin: 20px;
+	margin-right: 0px;
+	margin-left: 0px;
+	float: right;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+#holder{
+	width: 15px;
+	height: 30px;
+	float: left;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	background-image: url(./carbon.png);
+	cursor: pointer;
+}
+#kontakte{
+	width: 666px;
+	height: 200px;
+	float: left;
+	overflow-y: auto;
+	display: none;
+	-webkit-box-shadow: 0px 0px 10px #888888;
+	-moz-box-shadow: 0px 0px 10px #888888;
+	box-shadow: 0px 0px 10px #888888;
+}
+.kontakt{
+	width: 100px;
+	height: 100px;
+	margin: 3px;
+	float: left;
+	border-radius: 10px;
+	text-align: center;
+	background-color: white;
+	cursor: pointer;
+	/*
+	opacity: 0.5;
+	*/
+}
+.kontakt_p{
+	margin-top: 50%;
+	vertical-align: middle;
+}
+#kurze_linie_1{
+	width: 360px;
+	height: 1px;
+	float: left;
+	margin-left: 20px;
+	background-color: #CCCCCC;
+}
+#height_holder{
+	width: 200px;
+	height: 15px;
+	margin-left: 20px;
+	margin-top: -7px;
+	float: left;
+	border-radius: 5px;
+	background-image: url(./carbon.png);
+	cursor: pointer;
+}
+#kurze_linie_2{
+	width: 360px;
+	height: 1px;
+	float: right;
+	margin-right: 20px;
+	background-color: #CCCCCC;
+}
+#bottom{
+	height: 500px;
+	margin-top: 20px;
+}
+#projekte{
+	width: 960px;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border: solid black 1px;
+	border-bottom-width: 0px;
+	text-align: center;
+	overflow: auto;
+}
